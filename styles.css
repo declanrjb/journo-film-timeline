@@ -1,0 +1,82 @@
+.timeline {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.timeline-item {
+    width: 100%;
+    height: fit-content;
+}
+
+.year {
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content-box {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    padding: 20px;
+    height: 100%;
+}
+
+.content-box + .content-box {
+    border-left: 3px solid grey;
+}
+
+.standalone-line {
+    width: 3px;
+    background-color: grey;
+    min-height: 100px;
+    margin: auto;
+}
+
+.yt-embed {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+.blurb-box p {
+    margin: 0px;
+    line-height: 1.2;
+}
+
+.film-tag {
+    background-color: darkblue;
+    color: white;
+    font-style: italic;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.page-link {
+    margin-top: 20px !important;
+}
+
+.page-link a {
+    color: black;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: darkblue;
+}
+
+.page-link a:hover {
+    background-color: lightgrey;
+}
+
+.standalone-film {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.timeline-content-container {
+    height: 350px;
+}
