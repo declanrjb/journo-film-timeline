@@ -1,0 +1,79 @@
+column {
+    float: left;
+    min-height: 100px;
+}
+
+.film-poster {
+    width: 100%;
+    margin-bottom: 0px;
+    filter: brightness(50%);
+}
+
+.main-panel {
+    min-height: 700px;
+    box-sizing: border-box;
+}
+
+.content-wrapper {
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.film-analysis {
+    margin: 20px;
+    margin-top: 0px;
+}
+
+p {
+    margin-top: 0px;
+    font-size: 1.05em;
+    line-height: 1.3em;
+}
+
+.yt-embed {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+h2 {
+    font-size: 1.1em;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+    width: fit-content;
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 0px;
+}
+
+.timeline-return {
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: underline;
+    text-decoration-color: darkblue;
+    text-decoration-thickness: 3px;
+    color: black;
+    font-size: 1.1em;
+}
+
+a:hover {
+    background-color: lightgrey;
+    width: fit-content;
+}
+
+.year {
+    width: calc(35% - 12px);
+    text-align: center;
+    font-size: 2.7em;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    text-align: center;
+    color: white;
+    z-index: 99;
+    margin-top: 23%;
+}
+
