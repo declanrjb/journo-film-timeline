@@ -8,6 +8,14 @@ column {
     margin-bottom: 0px;
 }
 
+a {
+    text-decoration: underline;
+    text-decoration-color: darkblue;
+    text-decoration-thickness: 3px;
+    color: black;
+    font-size: 1.1em;
+}
+
 .main-panel {
     min-height: 700px;
     box-sizing: border-box;
@@ -21,6 +29,14 @@ column {
 .film-analysis {
     margin: 20px;
     margin-top: 0px;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.film-analysis h2 {
+    margin-bottom: 10px;
 }
 
 p {
@@ -35,28 +51,27 @@ p {
 }
 
 h2 {
-    font-size: 1.1em;
-    background-color: darkblue;
-    color: white;
-    font-weight: bold;
+    font-size: 1.1em !important;
+    background-color: darkblue !important;
+    color: white !important;
+    font-weight: bold !important;
     width: fit-content;
     padding-right: 6px;
     padding-left: 6px;
     padding-top: 2px;
     padding-bottom: 2px;
     margin-top: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 a {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: transparent !important;
 }
 
 .timeline-return {
     margin-top: 10px;
-}
-
-a {
-    text-decoration: underline;
-    text-decoration-color: darkblue;
-    text-decoration-thickness: 3px;
-    color: black;
-    font-size: 1.1em;
 }
 
 a:hover {
@@ -74,5 +89,12 @@ a:hover {
     color: white;
     z-index: 99;
     margin-top: 23%;
+}
+
+.film-title {
+    margin: 0px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-style: italic;
 }
 
