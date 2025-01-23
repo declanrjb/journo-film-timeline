@@ -98,3 +98,18 @@ a:hover {
     font-style: italic;
 }
 
+@media only screen and (max-width: 920px) {
+    column {
+        width: 100% !important;
+    }
+
+    .film-title {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .film-analysis {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
