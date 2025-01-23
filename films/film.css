@@ -45,6 +45,12 @@ p {
     line-height: 1.3em;
 }
 
+li {
+    margin-top: 0px;
+    font-size: 1.05em;
+    line-height: 1.3em;
+}
+
 .yt-embed {
     width: 100%;
     aspect-ratio: 16 / 9;
