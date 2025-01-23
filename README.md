@@ -1,0 +1,1 @@
+Web-based graphic for Professor Jan Cooper's 2025 Winter Term group project at Oberlin College
