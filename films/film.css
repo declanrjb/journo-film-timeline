@@ -6,7 +6,6 @@ column {
 .film-poster {
     width: 100%;
     margin-bottom: 0px;
-    filter: brightness(50%);
 }
 
 .main-panel {
