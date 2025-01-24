@@ -87,6 +87,20 @@
     display: none;
 }
 
+.standalone-film {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.standalone-film a {
+    background-color: white;
+    color: darkblue;
+    border: 4px solid darkblue;
+    padding: 10px;
+    font-weight: bold;
+}
+
 @media only screen and (max-width: 920px) {
     .content-box {
       width: 100% !important;
